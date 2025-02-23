@@ -6,9 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { TbBrandLeetcode } from "react-icons/tb";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { LiaHackerrank } from "react-icons/lia";
-import { SiCodechef } from "react-icons/si";
-
-// import { motion } from "framer-motion";
+import { SiCodechef } from "react-icons/si"; 
 import Typewriter from 'typewriter-effect';
 const Homecv = () => {
   return(
@@ -23,13 +21,7 @@ const Homecv = () => {
         <div className={mystyles.firstright}>
           <p>Hello, I'm</p>
           <div style={{fontSize:"30px",fontWeight:"bold"}}>I am Lakshmi sai</div>
-          {/* <p style={{fontSize:'20px'}}>Web Developer</p> */}
-          {/* <motion.p
-            className={mystyles.title}
-            initial={{ x: '-100vw' }}
-            animate={{ x: 0 }}
-            transition={{ delay: 0.3, duration: 0.6 }}
-          > */}
+           
             <Typewriter
               options={{
                 strings: [
@@ -40,10 +32,9 @@ const Homecv = () => {
                 autoStart: true,
                 loop: true,
               }}
-            />
-          {/* </motion.p> */}
+            /> 
           
-          <a href="/Lakshmi_Sai_Resume.pdf" download target="_blank" rel="noopener noreferrer">
+          <a href="/Lakshmi_Sai_resume.pdf" download target="_blank" rel="noopener noreferrer">
           <button className={mystyles.resumebut} style={{marginTop:"20px"}}><GoDownload /> Resume</button>
           </a>
           <div className={mystyles.hhomeicons}>

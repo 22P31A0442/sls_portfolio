@@ -1,48 +1,4 @@
-
-// import React from "react";
-// import c from "./styles.module.css";
-
-// const educationData = [
-//     { year: "B.Tech", institute: "Aditya College of Engineering and Technology", field: "Electronics and Communication Engineering", score: "CGPA: 7.51" },
-//     { year: "Intermediate", institute: "Pragati Junior College", field: "MPC", score: "Points: 9.23" },
-//     { year: "10th Standard", institute: "Z P High School", field: "", score: "Points: 10" }
-// ];
-
-// const Education = () => {
-//     return (
-//         <>
-//             <div className={c.abouthead} id="Education">Education</div>
-//             <div className={c.aboutline}>
-//                 <div className={c.aboutlineone}>
-//                     <div className={c.aboutlinetwo}></div>
-//                 </div>
-//             </div>
-//             <div className={c.educationContainer}>
-//                 <div className={c.timeline}>
-//                     {educationData.map((item, index) => (
-//                         <div key={index} className={`${c.timelineItem} ${c.fadeInUp}`}>
-//                             <div className={c.timelineContent}>
-//                                 <h3 className={c.year}>{item.year}</h3>
-//                                 <h4 className={c.institute}>{item.institute}</h4>
-//                                 <p className={c.field}>{item.field}</p>
-//                                 <p className={c.score}>{item.score}</p>
-//                                 {item.milestones && (
-//                                     <ul className={c.milestones}>
-//                                         {item.milestones.map((milestone, i) => (
-//                                             <li key={i}>{milestone}</li>
-//                                         ))}
-//                                     </ul>
-//                                 )}
-//                             </div>
-//                         </div>
-//                     ))}
-//                 </div>
-//             </div>
-//         </>
-//     );
-// };
-
-// export default Education;
+ 
 
 import React from "react";
 import mystyles from "./styles.module.css";

@@ -18,8 +18,7 @@ const Footerr = () => {
         <a href="https://www.hackerrank.com/profile/22P31A0442" target="_blank" rel="noopener noreferrer"><div className={styles.iconout4}><LiaHackerrank /> </div></a>
         <a href="https://www.codechef.com/users/lakshmisai42" target="_blank" rel="noopener noreferrer"> <div className={styles.iconout5}><SiCodechef /> </div></a>
 
-        </div>
-        {/* <div style={{position:"absolute", bottom:"10px", zIndex:'2'}}>copyrights</div> */}
+        </div> 
       </div>
     </div>
     </>
