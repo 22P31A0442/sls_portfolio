@@ -12,6 +12,7 @@ const certifications = [
     { name: "JavaScript Certification", provider: "HackerRank", date: "Sep 2024", url: "https://drive.google.com/file/d/1HQD9B0xgf0XJCKH55nX3tV1kdDHPlU9X/view?usp=sharing" },
     { name: "JavaScript Essentials 1", provider: "Cisco", date: "Nov 2024", url: "https://drive.google.com/file/d/1eZNT4FxHuPKHj68316V_IKwTpGCB-Sai/view?usp=sharing" },
     { name: "JavaScript Essentials 2", provider: "Cisco", date: "Dec 2024", url: "https://drive.google.com/file/d/1GPnBn353kO6wCGirrFDrRcnVnebuKJb3/view?usp=sharing" },
+    
 ];
 
 const Certifications = () => {

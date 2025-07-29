@@ -29,7 +29,7 @@ const educationDetails = [
     title: "B.Tech",
     institution: "Aditya college of Engineering and Technology",
     year: "2026",
-    CGPA: "7.51(present)",
+    CGPA: "7.53(present)",
     iconStyle: mystyles.iconUniversity,
   },
 ];

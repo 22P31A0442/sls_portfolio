@@ -34,7 +34,7 @@ const Homecv = () => {
               }}
             /> 
           
-          <a href="/Lakshmi_Sai_resume.pdf" download target="_blank" rel="noopener noreferrer">
+          <a href="/lakshmiSaiResume.pdf" download target="_blank" rel="noopener noreferrer">
           <button className={mystyles.resumebut} style={{marginTop:"20px"}}><GoDownload /> Resume</button>
           </a>
           <div className={mystyles.hhomeicons}>
